@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import login from '@/components/login'
+import Login from '@/components/login'
 
 Vue.use(Router)
 
@@ -12,7 +12,7 @@ export default new Router({
     },
     {
       path: '/login',
-      component: login
+      component: Login
     }
   ]
 })
